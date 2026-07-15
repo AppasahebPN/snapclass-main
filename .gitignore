@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+# Local configuration and credentials
+.streamlit/secrets.toml
+streamlit/secrets.toml
+
+# Installed dependencies and locally cloned model package
+node_modules/
+face_recognition_models/
+
+# Build metadata
+*.egg-info/
+build/
+dist/
